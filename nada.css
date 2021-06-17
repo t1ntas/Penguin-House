@@ -1,4 +1,4 @@
-.horizontal-menu{
+.menu{
     background: white;
     display: inline-block; /*tipo de exibicao*/ 
     display: flex; /*tipo de exibicao*/
@@ -10,12 +10,12 @@
     margin-top: 15px; /*margens*/
     
 }
-.horizontal-menu > ul{
+.menu > ul{
     font-size: 0; /*tammanho da fonte*/
     float: right; /*flutuar um elemento*/
     height: 60px; /*altura*/
 }
-.horizontal-menu > ul > li{ /*links/linhas*/
+.menu > ul > li{ /*links/linhas*/
     display: inline-block;
     align-items: center;
     font-size: 17px;
@@ -28,25 +28,25 @@
     top: 8px;
     cursor: pointer; /*tipo de cursor*/
 }
-.horizontal-menu > ul > li i{
+.menu > ul > li i{
     font-size: 5px;
     margin-left: 5px;
     vertical-align: text-top; /*alinhar verticalmente*/
     line-height: 16px !important; /*altura da linha dos elementos*/
     /*!important - usado para dar importancia e prioridade ao estilos anteriores*/
 }
-.horizontal-menu > ul > li a{
+.menu > ul > li a{
     color: black;
 }
-.horizontal-menu > ul > li:hover > a,
-.horizontal-menu > ul > li .sub-menu li:hover a{
+.menu > ul > li:hover > a,
+.menu > ul > li .sub-menu li:hover a{
     color: #2980b9 !important; /*cor dos links quando o cursor passa pro cima*/
 }
 .img{ /*imagem*/
     max-height: 80px;
     width: auto;
 }
-.horizontal-menu> ul > li .sub-menu{
+.menu> ul > li .sub-menu{
     border: 0; /*borda*/
     text-align: left;
     padding: 28px 25px!important;
@@ -70,38 +70,38 @@
     min-width: 132px;
     display: none;
 }
-.horizontal-menu  > ul > li:hover .sub-menu{
+.menu  > ul > li:hover .sub-menu{
     display: block;
 }
-.horizontal-menu> ul > li .sub-menu li a{
+.menu> ul > li .sub-menu li a{
     color: #808184;
     font-family: "latoregular";
     text-transform: none;
     padding-bottom: 20px;
     display: block;
 }
-.horizontal-menu > ul > li .sub-menu li:last-child a{
+.menu > ul > li .sub-menu li:last-child a{
     padding-bottom: 0px;
 }
 
 @media only screen and (min-width: 1025px) {
-    .horizontal-menu>ul{
+    .menu>ul{
         display: block !important;
     }
-    .horizontal-menu i.icone-burguer{
+    .menu i.icone-burguer{
         display: none !important;
     }
 }
 @media only screen and (max-width: 1024px) {
-    .horizontal-menu>ul{
+    .menu>ul{
         height: auto;
         float: none;
         display: none;
     }
-    .horizontal-menu{
+    .menu{
         position: relative;
     }
-    .horizontal-menu i.icone-burguer {
+    .menu i.icone-burguer {
         position: absolute;
         top: 43px;
         right: 31px;
@@ -111,14 +111,14 @@
         font-family: 'toolkit_font'!important;
         cursor: pointer;
     }
-    .horizontal-menu>ul>li{
+    .menu>ul>li{
         display: block;
         width: 100%;
         height: auto;
         line-height: normal;
         padding: 10px 0px;
     }
-    .horizontal-menu>ul>li .sub-menu{
+    .menu>ul>li .sub-menu{
         position: relative;
         top: initial;
         left: initial;
@@ -134,22 +134,22 @@
         box-shadow: none;
         padding: 0px!important;
     }
-    .horizontal-menu>ul>li .sub-menu li a{
+    .menu>ul>li .sub-menu li a{
         color: #fff;
         padding-bottom: 10px;
         padding-top: 10px;
         padding-left: 15px;
     }
-    .horizontal-menu>ul>li:hover .sub-menu{
+    .menu>ul>li:hover .sub-menu{
         display: none;
     }
 }
 
 @media only screen and (max-width: 440px) {
-    .horizontal-menu>img{
+    .menu>img{
         width: 160px;
     }
-    .horizontal-menu i.icone-burguer{
+    .menu i.icone-burguer{
         top: 34px;
     }
 }
