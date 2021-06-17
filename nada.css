@@ -1,6 +1,6 @@
 .horizontal-menu{
     background: white;
-    display: inline-block; /*tipo de exibicao*/
+    display: inline-block; /*tipo de exibicao*/ 
     display: flex; /*tipo de exibicao*/
     padding: 33px 28px; /*gerar espaço volta de conteudo*/
     border-style: groove; /*estilo das bordas*/
@@ -21,11 +21,11 @@
     font-size: 20px;
     font-family: 'latobold'; /*tipo de letra*/
     padding-right: 100px; /*espaco entre conteudo*/
-    padding-left: 300px; /*espaco entre conteudo*/
+    padding-left: 270px; /*espaco entre conteudo*/
     text-transform: uppercase; /*capitalizacao do texto*/
     position: relative; /*metodo de posicionamento*/
     height: calc(100% - 10px);
-    top: 10px; /*posicao vertical*/
+    top: 8px;
     cursor: pointer; /*tipo de cursor*/
 }
 .horizontal-menu > ul > li i{
