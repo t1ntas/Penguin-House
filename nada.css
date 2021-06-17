@@ -18,7 +18,7 @@
 .horizontal-menu > ul > li{ /*links/linhas*/
     display: inline-block;
     align-items: center;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'latobold'; /*tipo de letra*/
     padding-right: 100px; /*espaco entre conteudo*/
     padding-left: 270px; /*espaco entre conteudo*/
