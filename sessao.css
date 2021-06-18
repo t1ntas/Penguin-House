@@ -1,0 +1,36 @@
+.login{
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+.title{
+    padding: 0 0 45px 0;
+    border-bottom: none;
+    margin: 0;
+    font-size: 1.8rem;
+}
+.div,body,main{
+    transition: none;
+}
+*{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'lato', sans-serif !important;
+    font-size: 14px !important;
+    color: #000;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.input-text{
+    height: 50px;
+    padding: 0 18px;
+    border: solid 1px #eaeaea;
+    border-radius: 2px;
+    margin: 0;
+    transition: all .3s;
+
+}

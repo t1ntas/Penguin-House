@@ -1,14 +1,20 @@
+body{
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    transition: none;
+}
 .menu{
     background: white;
     display: inline-block; /*tipo de exibicao*/ 
-    display: flex; /*tipo de exibicao*/
+    display: flex !important; /*tipo de exibicao*/
     padding: 33px 28px; /*gerar espaço volta de conteudo*/
     border-style: groove; /*estilo das bordas*/
     border-color: black;
     margin-left: 10px; /*margens*/
     margin-right: 10px; /*margens*/
     margin-top: 15px; /*margens*/
-    
 }
 .menu > ul{
     font-size: 0; /*tammanho da fonte*/
@@ -16,6 +22,7 @@
     height: 60px; /*altura*/
 }
 .menu > ul > li{ /*links/linhas*/
+    justify-content: center;
     display: inline-block;
     align-items: center;
     font-size: 17px;
