@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,44 +9,39 @@
     <title>Signup | Penguin House
     </title>
 </head>
+
 <body>
     <fieldset>
         <h1>Faça o seu registro aqui!</h1>
         <div class="">
-        <label>
-            <span>Nome*</span>
-        </label> 
-        <div>
-            <input id="nome" class="input-text" type="text" name="name" 
-            value="" title="Nome" maxlength="40" data-validade="{required:true}"
-            autocomplete="off" aria-required="true">
+            <label>
+                    <span>Nome*</span>
+                </label>
+            <div>
+                <input id="nome" class="input-text" type="text" name="name" value="" title="Nome" maxlength="40" data-validade="{required:true}" autocomplete="off" aria-required="true">
+            </div>
+            <label>
+                    <span>Email*</span>
+                </label>
+            <div>
+                <input id="email" class="input-text" type="email" name="Email" autocomplete="email" value="" title="Email" data-validade="{required:true, 'validade-email':true}" aria-required="true">
+            </div>
+            <label>
+                    <span>Palavra-Passe*</span>
+                </label>
+            <div>
+                <input id="password" class="input-text" type="password" name="password" title="Palavra-Passe" data-password-min-lenght="8" data-password-min-characther-sets="3" data-validade="{required:true,
+                        'validade-customer-password':true" autocomplete="off" aria-required="true">
+            </div>
+            <label>
+                    <span>Telemóvel*</span>
+                </label>
+            <div>
+                <input id="telemovel" class="input-text" type="text" name="Telemóvel" title="Telemóvel" maxlength="9" minlength="9" data-telemovel-min-lenght="9" data-telemovel-max-lenght="9" data-validade="{required:true,
+                        'validade-telemovel'=true}" aria-required="true">
+            </div>
         </div>
-        <label>
-            <span>Email*</span>
-        </label>
-        <div>
-            <input id="email" class="input-text" type="email" name="Email"
-            autocomplete="email" value="" title="Email" 
-            data-validade="{required:true, 'validade-email':true}" aria-required="true">
-        </div> 
-        <label>
-            <span>Palavra-Passe*</span>
-        </label>
-        <div>
-            <input id="password" class="input-text" type="password" name="password"
-            title="Palavra-Passe" data-password-min-lenght="8" data-password-min-characther-sets="3"
-            data-validade="{required:true, 'validade-customer-password':true" autocomplete="off"
-            aria-required="true">
-        </div> 
-        <label>
-            <span>Telemóvel*</span>
-        </label>
-        <div>
-        <input id="telemovel" class="input-text" type="text" name="Telemóvel"
-        title="Telemóvel" maxlength="9" minlength="9"  data-telemovel-min-lenght="9" data-telemovel-max-lenght="9"
-        data-validade="{required:true, 'validade-telemovel'=true}" aria-required="true">
-        </div>    
-    </div>
     </fieldset>
 </body>
+
 </html>

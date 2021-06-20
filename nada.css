@@ -23,7 +23,8 @@ body{
 }
 .menu > ul > li{ /*links/linhas*/
     justify-content: center;
-    display: inline-block;
+    display: inline-block !important;
+    display: flex;
     align-items: center;
     font-size: 17px;
     font-family: 'latobold'; /*tipo de letra*/
