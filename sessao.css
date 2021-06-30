@@ -34,3 +34,37 @@ body{
     transition: all .3s;
 
 }
+.form .fieldset > .field input.input-text, form .fieldset > .field input.input-text {
+    height: 50px;
+    padding: 0 18px;
+    border: solid 1px #eaeaea;
+    border-radius: 2px;
+    margin: 0;
+    transition: all .3s;
+}
+.customer-account-login-container .login-container .block-customer-login {
+    max-width: 500px;
+}
+.customer-account-login-container .login-container .block-customer-login {
+    width: 100%;
+}
+.block{
+    margin-bottom:40px;
+}
+.customer-login .login-container .block-customer-login .title {
+    padding: 0 0 45px 0;
+}
+.customer-account-login-container .login-container .block-customer-login .title {
+    border-bottom: none;
+    margin: 0;
+}
+.login-container .block .block-title {
+    font-size: 1.8rem;
+}
+form.form-login fieldset.login{
+    display: flex;
+    flex-direction: column;
+}
+.fieldset: last-child{
+    margin-bottom: 20px;
+}
