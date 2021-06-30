@@ -65,6 +65,6 @@ form.form-login fieldset.login{
     display: flex;
     flex-direction: column;
 }
-.fieldset: last-child{
+.fieldset:last-child{
     margin-bottom: 20px;
 }
