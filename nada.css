@@ -10,10 +10,8 @@ body{
     display: inline-block; /*tipo de exibicao*/ 
     display: flex !important; /*tipo de exibicao*/
     padding: 33px 28px; /*gerar espaço volta de conteudo*/
-    border-style: groove; /*estilo das bordas*/
-    border-color: black;
-    margin-left: 10px; /*margens*/
-    margin-right: 10px; /*margens*/
+    margin-left: 190px; /*margens*/
+    margin-right: 190px; /*margens*/
     margin-top: 15px; /*margens*/
 }
 .menu > ul{
@@ -22,14 +20,12 @@ body{
     height: 60px; /*altura*/
 }
 .menu > ul > li{ /*links/linhas*/
-    justify-content: center;
     display: inline-block !important;
     display: flex;
     align-items: center;
     font-size: 17px;
     font-family: 'latobold'; /*tipo de letra*/
-    padding-right: 100px; /*espaco entre conteudo*/
-    padding-left: 230px; /*espaco entre conteudo*/
+    padding-left: 210px; /*espaco entre conteudo*/
     text-transform: uppercase; /*capitalizacao do texto*/
     position: relative; /*metodo de posicionamento*/
     height: calc(100% - 10px);
