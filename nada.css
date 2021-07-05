@@ -6,6 +6,7 @@ body{
     transition: none;
 }
 .menu{
+    position: fixed;
     background: white;
     display: inline-block; /*tipo de exibicao*/ 
     display: flex !important; /*tipo de exibicao*/
@@ -23,9 +24,9 @@ body{
     display: inline-block !important;
     display: flex;
     align-items: center;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'latobold'; /*tipo de letra*/
-    padding-left: 210px; /*espaco entre conteudo*/
+    padding-left: 140px; /*espaco entre conteudo*/
     text-transform: uppercase; /*capitalizacao do texto*/
     position: relative; /*metodo de posicionamento*/
     height: calc(100% - 10px);
@@ -47,7 +48,7 @@ body{
     color: #2980b9 !important; /*cor dos links quando o cursor passa pro cima*/
 }
 .img{ /*imagem*/
-    max-height: 80px;
+    max-height: 70px;
     width: auto;
 }
 .menu> ul > li .sub-menu{
