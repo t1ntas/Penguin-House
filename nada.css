@@ -6,14 +6,11 @@ body{
     transition: none;
 }
 .menu{
-    position: fixed;
+    justify-content: center;
     background: white;
     display: inline-block; /*tipo de exibicao*/ 
     display: flex !important; /*tipo de exibicao*/
-    padding: 33px 28px; /*gerar espaço volta de conteudo*/
-    margin-left: 190px; /*margens*/
-    margin-right: 190px; /*margens*/
-    margin-top: 15px; /*margens*/
+    margin-top: 20px;
 }
 .menu > ul{
     font-size: 0; /*tammanho da fonte*/
