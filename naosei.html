@@ -5,15 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-    #input > * {
-        height: 1.3em;
-        float: left;
-      }
-      
-      #input img {
-        cursor: pointer;
-      }</style>
+    
 </head>
 <body>
     <img style="margin-left: 1080px; margin-top: 90px;" id="img" src="imagens/avatardefault.jpg" width="100" height="100">
@@ -21,16 +13,5 @@
     <button onclick="document.getElementById('img').src='imagens/avatargalinha.jpg'"><img src="imagens/avatargalinha.jpg" width="80" height="80"></button>
     <button onclick="document.getElementById('img').src='imagens/avatarpinguim.png'"><img src="imagens/avatarpinguim.png" width="80" height="80"></button>
     <button onclick="document.getElementById('img').src='imagens/avatardefault.jpg'">Reset</button>
-    <div id="input">
-        <input type="password" value="password" />
-        <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
-      </div>
-      <script>
-        var input = document.querySelector('#input input');
-var img = document.querySelector('#input img');
-img.addEventListener('click', function () {
-  input.type = input.type == 'text' ? 'password' : 'text';
-});
-    </script>
 </body>
 </html>
