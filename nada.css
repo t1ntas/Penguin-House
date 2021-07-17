@@ -1,67 +1,96 @@
-body{
+body {
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
     transition: none;
 }
-.menu{
+
+.menu {
     background: white;
-    display: inline-block; /*tipo de exibicao*/ 
-    display: flex !important; /*tipo de exibicao*/
-    padding: 33px 28px; /*gerar espaço volta de conteudo*/
-    border-style: groove; /*estilo das bordas*/
-    border-color: black;
-    margin-left: 10px; /*margens*/
-    margin-right: 10px; /*margens*/
-    margin-top: 15px; /*margens*/
-}
-.menu > ul{
-    font-size: 0; /*tammanho da fonte*/
-    float: right; /*flutuar um elemento*/
-    height: 60px; /*altura*/
-}
-.menu > ul > li{ /*links/linhas*/
-    justify-content: center;
-    display: inline-block !important;
+    display: inline-block;
+    /*tipo de exibicao*/
     display: flex;
+    /*tipo de exibicao*/
+    padding: 33px 28px;
+    /*gerar espaço volta de conteudo*/
+    border-style: groove;
+    /*estilo das bordas*/
+    border-color: black;
+    margin-left: 10px;
+    /*margens*/
+    margin-right: 10px;
+    /*margens*/
+    margin-top: 15px;
+    /*margens*/
+}
+
+.menu>ul {
+    font-size: 0;
+    /*tammanho da fonte*/
+    float: right;
+    /*flutuar um elemento*/
+    height: 60px;
+    /*altura*/
+}
+
+.menu>ul>li {
+    /*links/linhas*/
+    display: inline-block !important;
     align-items: center;
     font-size: 17px;
-    font-family: 'latobold'; /*tipo de letra*/
-    padding-right: 100px; /*espaco entre conteudo*/
-    padding-left: 230px; /*espaco entre conteudo*/
-    text-transform: uppercase; /*capitalizacao do texto*/
-    position: relative; /*metodo de posicionamento*/
+    font-family: 'latobold';
+    /*tipo de letra*/
+    padding-right: 10px;
+    /*espaco entre conteudo*/
+    padding-left: 290px;
+    /*espaco entre conteudo*/
+    text-transform: uppercase;
+    /*capitalizacao do texto*/
+    position: relative;
+    /*metodo de posicionamento*/
     height: calc(100% - 10px);
     top: 8px;
-    cursor: pointer; /*tipo de cursor*/
+    cursor: pointer;
+    /*tipo de cursor*/
 }
-.menu > ul > li i{
+
+.menu>ul>li i {
     font-size: 5px;
     margin-left: 5px;
-    vertical-align: text-top; /*alinhar verticalmente*/
-    line-height: 16px !important; /*altura da linha dos elementos*/
+    vertical-align: text-top;
+    /*alinhar verticalmente*/
+    line-height: 16px !important;
+    /*altura da linha dos elementos*/
     /*!important - usado para dar importancia e prioridade ao estilos anteriores*/
 }
-.menu > ul > li a{
+
+.menu>ul>li a {
     color: black;
 }
-.menu > ul > li:hover > a,
-.menu > ul > li .sub-menu li:hover a{
-    color: #2980b9 !important; /*cor dos links quando o cursor passa pro cima*/
+
+.menu>ul>li:hover>a,
+.menu>ul>li .sub-menu li:hover a {
+    color: #2980b9 !important;
+    /*cor dos links quando o cursor passa pro cima*/
 }
-.img{ /*imagem*/
+
+.img {
+    /*imagem*/
     max-height: 80px;
     width: auto;
 }
-.menu> ul > li .sub-menu{
-    border: 0; /*borda*/
+
+.menu>ul>li .sub-menu {
+    border: 0;
+    /*borda*/
     text-align: left;
     padding: 28px 25px!important;
-    border-radius: 0; /*cantos arredondados*/
+    border-radius: 0;
+    /*cantos arredondados*/
     -webkit-box-shadow: inset 0 7px 13px -10px grey;
     -moz-box-shadow: inset 0 7px 13px -10px grey;
-    box-shadow: inset 0 7px 13px -10px grey, 0px 3px 6px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 7px 13px -10px grey, 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
     top: 39px;
     min-width: 100%;
     -webkit-box-sizing: border-box;
@@ -71,42 +100,47 @@ body{
     position: absolute;
     top: 67px;
     left: 50%;
-    transform: translateX(-50%); /*dimensionar elementos*/
+    transform: translateX(-50%);
+    /*dimensionar elementos*/
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     min-width: 132px;
     display: none;
 }
-.menu  > ul > li:hover .sub-menu{
+
+.menu>ul>li:hover .sub-menu {
     display: block;
 }
-.menu> ul > li .sub-menu li a{
+
+.menu>ul>li .sub-menu li a {
     color: #808184;
     font-family: "latoregular";
     text-transform: none;
     padding-bottom: 20px;
     display: block;
 }
-.menu > ul > li .sub-menu li:last-child a{
+
+.menu>ul>li .sub-menu li:last-child a {
     padding-bottom: 0px;
 }
 
 @media only screen and (min-width: 1025px) {
-    .menu>ul{
+    .menu>ul {
         display: block !important;
     }
-    .menu i.icone-burguer{
+    .menu i.icone-burguer {
         display: none !important;
     }
 }
+
 @media only screen and (max-width: 1024px) {
-    .menu>ul{
+    .menu>ul {
         height: auto;
         float: none;
         display: none;
     }
-    .menu{
+    .menu {
         position: relative;
     }
     .menu i.icone-burguer {
@@ -114,19 +148,20 @@ body{
         top: 43px;
         right: 31px;
         font-size: 30px;
-        content: "\e916"; /*usado com pseudo-elemntos serve para inserir conteudo gerado*/
+        content: "\e916";
+        /*usado com pseudo-elemntos serve para inserir conteudo gerado*/
         color: #fff;
         font-family: 'toolkit_font'!important;
         cursor: pointer;
     }
-    .menu>ul>li{
+    .menu>ul>li {
         display: block;
         width: 100%;
         height: auto;
         line-height: normal;
         padding: 10px 0px;
     }
-    .menu>ul>li .sub-menu{
+    .menu>ul>li .sub-menu {
         position: relative;
         top: initial;
         left: initial;
@@ -142,59 +177,65 @@ body{
         box-shadow: none;
         padding: 0px!important;
     }
-    .menu>ul>li .sub-menu li a{
+    .menu>ul>li .sub-menu li a {
         color: #fff;
         padding-bottom: 10px;
         padding-top: 10px;
         padding-left: 15px;
     }
-    .menu>ul>li:hover .sub-menu{
+    .menu>ul>li:hover .sub-menu {
         display: none;
     }
 }
 
 @media only screen and (max-width: 440px) {
-    .menu>img{
+    .menu>img {
         width: 160px;
     }
-    .menu i.icone-burguer{
+    .menu i.icone-burguer {
         top: 34px;
     }
 }
-.profileimg{
+
+.profileimg {
     max-height: 50px;
     width: auto;
 }
-li a, .dropbtn {
+
+li a,
+.dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  li.dropdown {
+}
+
+li.dropdown {
     display: inline-block;
-  }
-  
-  .dropdown-conteudo {
+}
+
+.dropdown-conteudo {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-conteudo a {
+}
+
+.dropdown-conteudo a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  .dropdown-conteudo a:hover {background-color: #f1f1f1;}
-  
-  .dropdown:hover .dropdown-conteudo {
+}
+
+.dropdown-conteudo a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-conteudo {
     display: block;
-  }
+}
