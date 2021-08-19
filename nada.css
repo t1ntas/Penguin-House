@@ -87,8 +87,8 @@ body {
 
 .img {
     /*imagem*/
-    max-height: 50px;
-    width: auto
+    width: 100%;
+    height: auto;
 }
 
 .menu>ul>li .sub-menu {
@@ -208,8 +208,8 @@ body {
 }
 
 .profileimg {
-    max-height: 50px;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 li a,
