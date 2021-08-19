@@ -88,6 +88,7 @@ body {
 .img {
     /*imagem*/
     width: 100%;
+    max-width: 80px;
     height: auto;
 }
 
@@ -209,6 +210,7 @@ body {
 
 .profileimg {
     width: 100%;
+    max-width: 80px;
     height: auto;
 }
 
