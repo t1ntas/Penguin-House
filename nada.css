@@ -87,8 +87,8 @@ body {
 
 .img {
     /*imagem*/
-    max-height: 80px;
-    width: auto;
+    max-height: 50px;
+    width: auto
 }
 
 .menu>ul>li .sub-menu {
