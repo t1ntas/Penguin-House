@@ -85,12 +85,14 @@ body {
     /*cor dos links quando o cursor passa pro cima*/
 }
 
+    
 .img {
     /*imagem*/
-    width: 100%;
+    width: auto;
     max-width: 80px;
     height: auto;
 }
+
 
 .menu>ul>li .sub-menu {
     border: 0;
@@ -209,7 +211,7 @@ body {
 }
 
 .profileimg {
-    width: 100%;
+    width: auto;
     max-width: 80px;
     height: auto;
 }
