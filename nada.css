@@ -5,8 +5,6 @@ body {
     letter-spacing: normal;
     transition: none;
 }
-<<<<<<< HEAD
-
 .menu {
     background: white;
     display: inline-block;
@@ -24,14 +22,14 @@ body {
     /*margens*/
     margin-top: 15px;
     /*margens*/
-=======
+}
 .menu{
     justify-content: center;
     background: white;
     display: inline-block; /*tipo de exibicao*/ 
     display: flex !important; /*tipo de exibicao*/
     margin-top: 20px;
->>>>>>> 83df56326017678c70951187d11254b515c08eaf
+
 }
 
 .menu>ul {
@@ -42,16 +40,9 @@ body {
     height: 60px;
     /*altura*/
 }
-<<<<<<< HEAD
-
-.menu>ul>li {
-    /*links/linhas*/
-=======
 .menu > ul > li{ /*links/linhas*/
->>>>>>> 83df56326017678c70951187d11254b515c08eaf
     display: inline-block !important;
     align-items: center;
-<<<<<<< HEAD
     font-size: 17px;
     font-family: 'latobold';
     /*tipo de letra*/
@@ -63,13 +54,11 @@ body {
     /*capitalizacao do texto*/
     position: relative;
     /*metodo de posicionamento*/
-=======
     font-size: 16px;
     font-family: 'latobold'; /*tipo de letra*/
     padding-left: 140px; /*espaco entre conteudo*/
     text-transform: uppercase; /*capitalizacao do texto*/
     position: relative; /*metodo de posicionamento*/
->>>>>>> 83df56326017678c70951187d11254b515c08eaf
     height: calc(100% - 10px);
     top: 8px;
     cursor: pointer;
@@ -95,15 +84,10 @@ body {
     color: #2980b9 !important;
     /*cor dos links quando o cursor passa pro cima*/
 }
-<<<<<<< HEAD
 
 .img {
     /*imagem*/
     max-height: 80px;
-=======
-.img{ /*imagem*/
-    max-height: 70px;
->>>>>>> 83df56326017678c70951187d11254b515c08eaf
     width: auto;
 }
 
@@ -264,26 +248,4 @@ li.dropdown {
 
 .dropdown:hover .dropdown-conteudo {
     display: block;
-<<<<<<< HEAD
 }
-=======
-  }
-  
-  /*<nav class="menu">
-                    <a href="index.html"><img class="img" src="imagens/Icons8-Ios7-Holidays-Christmas-Penguin.ico" /></a>
-        <ul>
-            <li><a href="#">dripio</a></li>
-            <li><a href="#">cócó cola</a></li>
-            <li class="dropdown">
-                <img class="profileimg" src="imagens/Iconsmind-Outline-Administrator.ico" alt=""> <a href="javascript:void(0)" class="dropbtn">Profile</a>
-                <div class="dropdown-conteudo">
-                    <a href="login.html">Login</a>
-                    <a href="signup.html">Sign up</a>
-                </div>
-            </li>
-        </ul>
-    </nav>*/
-    /* <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */
->>>>>>> 83df56326017678c70951187d11254b515c08eaf
