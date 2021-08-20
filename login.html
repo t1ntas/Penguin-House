@@ -31,7 +31,7 @@
   <header class="header">
     <div class="header-content">
       <a class="logo" href="index.html" aria-label="store logo">
-        <img class="img" src="imagens/Icons8-Ios7-Holidays-Christmas-Penguin.ico" alt="">
+        <img class="imagemlogin" src="imagens/Icons8-Ios7-Holidays-Christmas-Penguin.ico" alt="">
       </a>
     </div>
   </header>
@@ -41,18 +41,18 @@
         Entre na sua conta PENGUIN HOUSE!
       </strong>
     </div>
-    <form method="POST" action="agua.php">
-    <fieldset class="fieldset login">
+    <form method="POST">
+    <fieldset class="fieldset_login">
         <div class="emailrequired">
             <label class="label" for="email"></label>
             <span>Email</span>
             <div>
                 <input id="email" class="input-text" type="email" name="Email" autocomplete="email" value="" title="Email" data-validade="{required:true, 'validade-email':true}" aria-required="true">
             </div>
+        </div>
             <div id="input">
-              <div>
-                <label class="label" for="password">Password</label>
-              </div>
+                <label class="label" for="password"></label>
+                <span>Password</span>
               <input type="password" value="" placeholder="Password"/>
               <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
             </div>
@@ -61,12 +61,14 @@
               var img = document.querySelector('#input img');
               img.addEventListener('click', function () {
               input.type = input.type == 'text' ? 'password' : 'text';});</script>
-              </div>
                 <div class="toolbar">
                     <div class="primary">
+                      
                         <button id="send2" class="action login primary" type="submit" name="send">
-      <span>Login</span>
-      </button>
+                          <span>Login</span>
+                        </button>
+                      
+                  <a href="signup.html">Criar Conta</a>
                 </div>
                   <div class="secondary">
                         <a class="remind" href="recuperarpass.html">
@@ -78,5 +80,6 @@
     </fieldset>
   </form>
     <a href="index.html"><button>Pagina Inicial</button></a>
+    
  </body>
 </html>

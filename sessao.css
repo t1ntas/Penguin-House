@@ -1,18 +1,19 @@
+.fieldset_login{
+
+}
 .login {
     padding-right: 5%;
     display: flex;
     justify-content: center;
 }
-<<<<<<< HEAD
+
+.imagemlogin {
+    width: auto;
+    max-width: 80px;
+    height: auto;
+}
 
 .title {
-=======
-.img{
-    max-height: 80px;
-    width: auto;
-}
-.title{
->>>>>>> 83df56326017678c70951187d11254b515c08eaf
     padding: 0 0 45px 0;
     border-bottom: none;
     margin: 0;
@@ -46,54 +47,4 @@ body {
     border-radius: 2px;
     margin: 0;
     transition: all .3s;
-<<<<<<< HEAD
 }
-=======
-
-}
-.form .fieldset > .field input.input-text, form .fieldset > .field input.input-text {
-    height: 50px;
-    padding: 0 18px;
-    border: solid 1px #eaeaea;
-    border-radius: 2px;
-    margin: 0;
-    transition: all .3s;
-}
-.customer-account-login-container .login-container .block-customer-login {
-    max-width: 500px;
-}
-.customer-account-login-container .login-container .block-customer-login {
-    width: 100%;
-}
-.block{
-    margin-bottom:40px;
-}
-.customer-login .login-container .block-customer-login .title {
-    padding: 0 0 45px 0;
-}
-.customer-account-login-container .login-container .block-customer-login .title {
-    border-bottom: none;
-    margin: 0;
-}
-.login-container .block .block-title {
-    font-size: 1.8rem;
-}
-form.form-login fieldset.login{
-    display: flex;
-    flex-direction: column;
-}
-.fieldset:last-child{
-    margin-bottom: 20px;
-}
-#pass {
-    width: 150px;
-    padding-right: 20px;
-  }
-  
-  .olho {
-    cursor: pointer;
-    left: 160px;
-    position: absolute;
-    width: 20px;
-  }
->>>>>>> 83df56326017678c70951187d11254b515c08eaf
