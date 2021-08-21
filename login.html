@@ -2,29 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sessao.css">
-    <link rel="shortcut icon" href="imagens/penguin house.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <title>Login | Penguin House</title>
-    <style>
-      #input > * {
-  height: 1.3em;
-  float: left;
-}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sessao.css">
+  <link rel="shortcut icon" href="imagens/penguin house.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <title>Login | Penguin House</title>
+  <style>
+    #input>* {
+      height: 1.3em;
+      float: left;
+    }
 
-#input img {
-  cursor: pointer;
-}
+    #input img {
+      cursor: pointer;
+    }
 
-.titulos{
-  background: linear-gradient(to right,#01B6E5 0%, #0161ED 100% );
+    .titulos {
+      background: linear-gradient(to right, #01B6E5 0%, #0161ED 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-}
-    </style>
+    }
+  </style>
 </head>
 
 <body>
@@ -37,49 +37,53 @@
   </header>
   <div class="customer-login">
     <div class="title">
-        <strong id="title" class="titulos" role="heading" aria-level="2">
+      <strong id="title" class="titulos" role="heading" aria-level="2">
         Entre na sua conta PENGUIN HOUSE!
       </strong>
     </div>
     <form method="POST">
-    <fieldset class="fieldset_login">
+      <fieldset class="fieldset_login">
         <div class="emailrequired">
-            <label class="label" for="email"></label>
-            <span>Email</span>
-            <div>
-                <input id="email" class="input-text" type="email" name="Email" autocomplete="email" value="" title="Email" data-validade="{required:true, 'validade-email':true}" aria-required="true">
-            </div>
+          <label class="label" for="email"></label>
+          <span>Email</span>
+          <div>
+            <input id="email" class="input-text" type="email" name="Email" autocomplete="email" value="" title="Email"
+              data-validade="{required:true, 'validade-email':true}" aria-required="true">
+          </div>
         </div>
-            <div id="input">
-                <label class="label" for="password"></label>
-                <span>Password</span>
-              <input type="password" value="" placeholder="Password"/>
-              <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
-            </div>
-            <script>
-              var input = document.querySelector('#input input');
-              var img = document.querySelector('#input img');
-              img.addEventListener('click', function () {
-              input.type = input.type == 'text' ? 'password' : 'text';});</script>
-                <div class="toolbar">
-                    <div class="primary">
-                      
-                        <button id="send2" class="action login primary" type="submit" name="send">
-                          <span>Login</span>
-                        </button>
-                      
-                  <a href="signup.html">Criar Conta</a>
-                </div>
-                  <div class="secondary">
-                        <a class="remind" href="recuperarpass.html">
-                            <span>Esqueceu-se da palavra-passe?</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-    </fieldset>
+        <div id="input">
+          <label class="label" for="password"></label>
+          <span>Password</span>
+          <input type="password" value="" placeholder="Password" />
+          <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
+        </div>
+        <script>
+          var input = document.querySelector('#input input');
+          var img = document.querySelector('#input img');
+          img.addEventListener('click', function () {
+            input.type = input.type == 'text' ? 'password' : 'text';
+          });</script>
+        <div class="toolbar">
+          <div class="primary">
+
+            <button id="send2" class="action login primary" type="submit" name="send">
+              <span>Login</span>
+            </button>
+
+            <a href="signup.html">Criar Conta</a>
+          </div>
+          <div class="secondary">
+            <a class="remind" href="recuperarpass.html">
+              <span>Esqueceu-se da palavra-passe?</span>
+            </a>
+          </div>
+        </div>
+  </div>
+  </fieldset>
   </form>
-    <a href="index.html"><button>Pagina Inicial</button></a>
-    
- </body>
+  <a href="puta.html">Escolher Avatar</a>
+  <a href="index.html"><button>Pagina Inicial</button></a>
+
+</body>
+
 </html>
