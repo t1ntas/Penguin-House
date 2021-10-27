@@ -1,8 +1,4 @@
-.fieldset_login{
-
-}
 .login {
-    padding-right: 5%;
     display: flex;
     justify-content: center;
 }
