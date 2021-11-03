@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,15 @@
 </head>
 
 <body>
+
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $("button").click(function(){
+                    
+                });
+            });
+    </script>
+
     <button onclick="document.getElementById('myImage').src='imagens/avatargalinha.jpg'"><img class="imga"
             src="imagens/avatargalinha.jpg"></button>
 
@@ -22,7 +32,7 @@
             class="imga" src="imagens/avatares/chicken-egg-shell-top-icon.png"></button>
 
     <button onclick="document.getElementById('myImage').src='imagens/avatares/chicken-icon.png'"><img class="imga"
-            src="imagens/avatares/chicken-icon.png" alt=""></button>
+            src="imagens/avatares/chicken-icon.png"></button>
 
     <button onclick="document.getElementById('myImage').src='imagens/avatardefault.jpg'"><img style="" class="imga"
             src="imagens/avatardefault.jpg"></button>
@@ -33,8 +43,10 @@
     <button onclick="document.getElementById('myImage').src='imagens/avatares/penguin-icon.png'"><img class="imga"
             src="imagens/avatares/penguin-icon.png" alt=""></button>
 
+    <!-- Este e a imagem que fica ao lado -->
     <img style="float: right;" id="myImage" class="imga" src="imagens/avatardefault.jpg">
-
+    <!-- Este e a imagem que fica ao lado -->
+    
     <button onclick="document.getElementById('myImage').src='imagens/avatarpinguim.png'"><img class="imga"
             src="imagens/avatarpinguim.png"></button>
 
