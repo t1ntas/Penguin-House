@@ -19,40 +19,35 @@
 
     <script type="text/javascript">
             $(document).ready(function(){
-                $("button").click(function(){
-                    var image_src = $("")
+                $(".imga").click(function(){
+                    var image_src = $(this).attr("src");
+                    $("#myImage").replaceWith("<img style='float: right;' id='myImage' class='imga' src=" + image_src + "></img>");
                 });
             });
     </script>
 
-    <button onclick="document.getElementById('myImage').src='imagens/avatargalinha.jpg'"><img class="imga"
-            src="imagens/avatargalinha.jpg"></button>
+    <button><img class="imga" src="imagens/avatargalinha.jpg"></button>
 
-    <button onclick="document.getElementById('myImage').src='imagens/avatares/chicken-egg-shell-top-icon.png'"><img
-            class="imga" src="imagens/avatares/chicken-egg-shell-top-icon.png"></button>
+    <button><img class="imga" src="imagens/avatares/chicken-egg-shell-top-icon.png"></button>
 
-    <button onclick="document.getElementById('myImage').src='imagens/avatares/chicken-icon.png'"><img class="imga"
-            src="imagens/avatares/chicken-icon.png"></button>
+    <button><img class="imga" src="imagens/avatares/chicken-icon.png"></button>
 
-    <button onclick="document.getElementById('myImage').src='imagens/avatardefault.jpg'"><img style="" class="imga"
-            src="imagens/avatardefault.jpg"></button>
+    <button><img class="imga" src="imagens/avatardefault.jpg"></button>
 
-    <button onclick="document.getElementById('myImage').src='imagens/avatares/22272-penguin-icon.png'"><img class="imga"
-            src="imagens/avatares/22272-penguin-icon.png"></button>
+    <button><img class="imga" src="imagens/avatares/22272-penguin-icon.png"></button>
 
-    <button onclick="document.getElementById('myImage').src='imagens/avatares/penguin-icon.png'"><img class="imga"
-            src="imagens/avatares/penguin-icon.png" alt=""></button>
+    <button><img class="imga" src="imagens/avatares/penguin-icon.png" alt=""></button>
+
+    <button><img class="imga" src="imagens/avatarpinguim.png"></button>
+
+    <a href="index.html">Pagina inicial</a>
+
+    <a href="lambopinto.html">coisasss</a>
 
     <!-- Este e a imagem que fica ao lado -->
     <img style="float: right;" id="myImage" class="imga" src="imagens/avatardefault.jpg">
     <!-- Este e a imagem que fica ao lado -->
 
-    <button onclick="document.getElementById('myImage').src='imagens/avatarpinguim.png'"><img class="imga"
-            src="imagens/avatarpinguim.png"></button>
-
-    <a href="index.html">Pagina inicial</a>
-
-    <a href="lambopinto.html">coisasss</a>
 
 </body>
 
