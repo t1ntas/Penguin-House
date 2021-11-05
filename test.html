@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="test.css">
   <title>Coiso</title>
+  <style>
+    .img {
+      width: 88px;
+      height: 88px;
+      float: right;
+    }
+  </style>
 </head>
 <body class="responsive">
   <div class="formulario">
@@ -21,8 +28,15 @@
         </div> 
         <div class="input">
           <label for="password">Password</label>
-            <input type="password" name="password" id="password" placeholder="Password"/>
+            <input type="password" value="" name="password" id="password" placeholder="Password"/>
+            <img id="img" src="http://i.stack.imgur.com/H9Sb2.png" alt="">  
         </div>
+        <script>
+          var input = document.querySelector('#input input');
+          var img = document.querySelector('#input img');
+          img.addEventListener('click', function () {
+            input.type = input.type == 'text' ? 'password' : 'text';
+          });</script>
       </form>
   </div>
 </body>
