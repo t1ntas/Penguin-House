@@ -34,12 +34,13 @@
             <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
         </div>
       </form>
+      <script>
+        var input = document.querySelector('#input input');
+        var img = document.querySelector('#input img');
+        img.addEventListener('click', function () {
+          input.type = input.type == 'text' ? 'password' : 'text';
+        });</script>
   </div> 
-  <script>
-    var input = document.querySelector('#input input');
-    var img = document.querySelector('#input img');
-    img.addEventListener('click', function () {
-      input.type = input.type == 'text' ? 'password' : 'text';
-    });</script>
+  
 </body>
 </html>

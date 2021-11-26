@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="input">
+        <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="Email" autocomplete="off"/>
+          </div> 
+            <div>
+                    <div id="input">
+                        <label class="label" for="password"></label>
+                        <input id="password" type="password" value="" placeholder="password">
+                        <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
+                    </div>
+                <script>
+                    var input = document.querySelector('#input input');
+                    var img = document.querySelector('#input img');
+                    img.addEventListener('click', function () {
+                      input.type = input.type == 'text' ? 'password' : 'text';
+                    });</script>
+</body>
+</html>
