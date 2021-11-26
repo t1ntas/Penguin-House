@@ -7,10 +7,12 @@
   <link rel="stylesheet" href="test.css">
   <title>Coiso</title>
   <style>
-    .img {
-      width: 88px;
-      height: 88px;
-      float: right;
+    #input img {
+      cursor: pointer;
+    }
+    #input>* {
+      height: 1.3em;
+      float: left;
     }
   </style>
 </head>
@@ -29,15 +31,15 @@
         <div class="input">
           <label for="password">Password</label>
             <input type="password" value="" name="password" id="password" placeholder="Password"/>
-            <img id="img" src="http://i.stack.imgur.com/H9Sb2.png" alt="">  
+            <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
         </div>
-        <script>
-          var input = document.querySelector('#input input');
-          var img = document.querySelector('#input img');
-          img.addEventListener('click', function () {
-            input.type = input.type == 'text' ? 'password' : 'text';
-          });</script>
       </form>
-  </div>
+  </div> 
+  <script>
+    var input = document.querySelector('#input input');
+    var img = document.querySelector('#input img');
+    img.addEventListener('click', function () {
+      input.type = input.type == 'text' ? 'password' : 'text';
+    });</script>
 </body>
 </html>
